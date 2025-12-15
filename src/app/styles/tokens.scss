@@ -6,7 +6,7 @@
   --error-hover: #ff9898;
   --white: #ffffff;
   --dark-grey: #2b2c37;
-  --lines-light: #e4ebfa;
+  --lines-light: #E4EBFA;
   --lines-dark: #3e3f4e;
   --light-bg: #f4f7fd;
   --dark-bg: #20212c;
@@ -16,14 +16,14 @@
 
   //typography
 
-  --font-base: "Plus Jakarta Sans", sans-serif;
-  --heading-xl: bold 24px/30px var(--font-base);
-  --heading-l: bold 18px/23px var(--font-base);
-  --heading-m: bold 15px/19px var(--font-base);
-  --heading-s: bold 12px/15px var(--font-base);
+  --font-family-base: "Plus Jakarta Sans", sans-serif;
+  --heading-xl: bold 24px/30px var(--font-family-base);
+  --heading-l: bold 18px/23px var(--font-family-base);
+  --heading-m: bold 15px/19px var(--font-family-base);
+  --heading-s: bold 12px/15px var(--font-family-base);
 
-  --text-body-l: medium 13px/23px var(--font-base);
-  --text-body-m: bold 12px/15px var(--font-base);
+  --text-body-l: medium 13px/23px var(--font-family-base);
+  --text-body-m: bold 12px/15px var(--font-family-base);
 
   // common values
   --border-radius-main: 24px;
