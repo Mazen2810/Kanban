@@ -1,0 +1,33 @@
+:root {
+  // Colors Tokens
+  --main-purple: #635fc7;
+  --main-purple-hover: #a8a4ff;
+  --error: #ea5555;
+  --error-hover: #ff9898;
+  --white: #ffffff;
+  --dark-grey: #2b2c37;
+  --lines-light: #e4ebfa;
+  --lines-dark: #3e3f4e;
+  --light-bg: #f4f7fd;
+  --dark-bg: #20212c;
+  --text-secondary: #828fa3;
+  --text-primary: #000112;
+
+
+  //typography
+
+  --font-base: "Plus Jakarta Sans", sans-serif;
+  --heading-xl: bold 24px/30px var(--font-base);
+  --heading-l: bold 18px/23px var(--font-base);
+  --heading-m: bold 15px/19px var(--font-base);
+  --heading-s: bold 12px/15px var(--font-base);
+
+  --text-body-l: medium 13px/23px var(--font-base);
+  --text-body-m: bold 12px/15px var(--font-base);
+
+  // common values
+  --border-radius-main: 24px;
+  --border-radius-secondary: 20px;
+
+
+}

@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import './app/styles/tokens.scss';
+
+
+h1{
+    color : var(--error);
+    font-family: var(--font-base);
+    background-color: var(--light-bg);
+}
