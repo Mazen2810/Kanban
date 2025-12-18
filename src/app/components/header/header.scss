@@ -4,10 +4,12 @@ header {
   padding: 24px 32px;
   background-color: var(--white);
   border: var(--lines-light) solid 1px;
-
+position: relative;
   .board-divider {
     width: 1px;
-    height: 24px;
+    height: 100%;
+    left: 190px;
+    position: absolute;
     background-color: var(--lines-light);
     
   }
