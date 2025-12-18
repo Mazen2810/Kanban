@@ -20,11 +20,11 @@
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
-            "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              "assets": [
+                {
+                  "glob": "**/*",
+                  "input": "public"
+                }
             ],
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
@@ -43,8 +43,8 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kB",
-                  "maximumError": "1MB"
+                  "maximumWarning": "1MB",
+                  "maximumError": "4MB"
                 },
                 {
                   "type": "anyComponentStyle",

@@ -14,6 +14,7 @@ export class Board implements OnInit {
   private kanbanService = inject(KanbanService);
   ngOnInit(): void {
      this.kanbanService.loadData();
+     
   }
 
 
