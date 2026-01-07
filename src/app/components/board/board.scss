@@ -1,0 +1,21 @@
+.board-container {
+  padding: 24px;
+  background-color: var(--light-bg);
+  min-height: calc(100vh - 97px);
+  overflow-x: auto;
+
+  .columns-wrapper {
+    display: flex;
+    gap: 24px;
+    min-width: fit-content;
+  }
+
+  .empty-state {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: var(--text-secondary);
+    font: var(--heading-l);
+  }
+}

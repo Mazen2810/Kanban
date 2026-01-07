@@ -1,1 +1,12 @@
-<p>column works!</p>
+<div class="column">
+  <div class="column-header">
+    <div class="column-indicator" [style.background-color]="indicatorColor()"></div>
+    <h3 class="column-title">{{ column().name }} ({{ column().tasks.length }})</h3>
+  </div>
+
+  <div class="tasks-list">
+    @for (task of column().tasks; track $index) {
+      <app-card [task]="task"></app-card>
+    }
+  </div>
+</div>

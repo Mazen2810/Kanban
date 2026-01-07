@@ -5,10 +5,11 @@ header {
   background-color: var(--white);
   border: var(--lines-light) solid 1px;
 position: relative;
+
   .board-divider {
     width: 1px;
     height: 100%;
-    left: 190px;
+    left: 210px;
     position: absolute;
     background-color: var(--lines-light);
     
@@ -16,6 +17,7 @@ position: relative;
 
   .board-name {
     font: var(--heading-xl);
+    padding-left: 32px;
   }
 
   .add-task-btn {

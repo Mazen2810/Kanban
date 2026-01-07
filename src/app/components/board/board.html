@@ -1,3 +1,15 @@
-
 <app-header></app-header>
-<p>board works!</p>
+
+<main class="board-container">
+  @if (activeBoard(); as board) {
+    <div class="columns-wrapper d-flex gap-4">
+      @for (column of board.columns; track $index) {
+        <app-column [column]="column" [columnIndex]="$index"></app-column>
+      }
+    </div>
+  } @else {
+    <div class="empty-state">
+      <p>Loading board...</p>
+    </div>
+  }
+</main>

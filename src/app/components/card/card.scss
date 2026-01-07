@@ -1,0 +1,21 @@
+.card{
+    min-width: 280px;
+    max-width: 280px;
+  background-color: var(--white);
+  border: transparent;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+
+
+  .card-title{
+    padding: 23px 16px 8px 16px;
+    margin: 0;
+    font: var(--heading-m);
+    color: var(--text-primary);
+  }
+
+  .subtask-completion{
+    padding: 0 0px 23px 16px;
+    font: var(--text-body-m);
+    color: var(--text-secondary);
+  }
+}

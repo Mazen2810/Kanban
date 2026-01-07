@@ -16,6 +16,7 @@ export class KanbanService {
     this.http.get<KanbanData>('/data.json').subscribe({
       next: (res) => {
         this.data.set(res);
+        console.log('Kanban data loaded', res);
       },
       error: (err) => {
         console.error('Failed to load Kanban data', err);

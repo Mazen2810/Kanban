@@ -1,0 +1,31 @@
+.column {
+  min-width: 280px;
+  max-width: 280px;
+
+  .column-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 24px;
+
+    .column-indicator {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+    }
+
+    .column-title {
+      font: var(--heading-s);
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 2.4px;
+      margin: 0;
+    }
+  }
+
+  .tasks-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
